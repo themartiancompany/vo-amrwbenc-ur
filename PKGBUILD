@@ -45,7 +45,7 @@ license=(
 depends=(
   "${_libc}"
 )
-_sf_dl="https://downloads.${sf}"
+_sf_dl="https://downloads.${_sf}"
 _tarname="${_pkg}-${pkgver}"
 source=(
   "${_sf_dl}/${_ns}/${_pkg}/${_tarname}.tar.gz"
